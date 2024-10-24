@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\victus\\Downloads\\ROYAL COFFE CREAM (AC)\\RoyalCoffeCream\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71B9B82E-F3D0-43E4-8029-046267DCAF08}|RoyalCoffeCream.View\\RoyalCoffeCream.View.csproj|c:\\users\\victus\\downloads\\royal coffe cream (ac)\\royalcoffecream\\royalcoffecream.view\\formnewdrink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B9B82E-F3D0-43E4-8029-046267DCAF08}|RoyalCoffeCream.View\\RoyalCoffeCream.View.csproj|solutionrelative:royalcoffecream.view\\formnewdrink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B9B82E-F3D0-43E4-8029-046267DCAF08}|RoyalCoffeCream.View\\RoyalCoffeCream.View.csproj|c:\\users\\victus\\downloads\\royal coffe cream (ac)\\royalcoffecream\\royalcoffecream.view\\formnewdrink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{71B9B82E-F3D0-43E4-8029-046267DCAF08}|RoyalCoffeCream.View\\RoyalCoffeCream.View.csproj|solutionrelative:royalcoffecream.view\\formnewdrink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B9B82E-F3D0-43E4-8029-046267DCAF08}|RoyalCoffeCream.View\\RoyalCoffeCream.View.csproj|C:\\Users\\victus\\Downloads\\ROYAL COFFE CREAM (AC)\\RoyalCoffeCream\\royalcoffecream.view\\formnewcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B9B82E-F3D0-43E4-8029-046267DCAF08}|RoyalCoffeCream.View\\RoyalCoffeCream.View.csproj|solutionrelative:royalcoffecream.view\\formnewcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B9B82E-F3D0-43E4-8029-046267DCAF08}|RoyalCoffeCream.View\\RoyalCoffeCream.View.csproj|c:\\users\\victus\\downloads\\royal coffe cream (ac)\\royalcoffecream\\royalcoffecream.view\\formdrink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{71B9B82E-F3D0-43E4-8029-046267DCAF08}|RoyalCoffeCream.View\\RoyalCoffeCream.View.csproj|solutionrelative:royalcoffecream.view\\formdrink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13033C85-3A08-4CA2-857D-A64FB04C82B3}|RoyalCoffeCream.DataAccess\\RoyalCoffeCream.DataAccess.csproj|c:\\users\\victus\\downloads\\royal coffe cream (ac)\\royalcoffecream\\royalcoffecream.dataaccess\\categorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13033C85-3A08-4CA2-857D-A64FB04C82B3}|RoyalCoffeCream.DataAccess\\RoyalCoffeCream.DataAccess.csproj|solutionrelative:royalcoffecream.dataaccess\\categorydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B9B82E-F3D0-43E4-8029-046267DCAF08}|RoyalCoffeCream.View\\RoyalCoffeCream.View.csproj|c:\\users\\victus\\downloads\\royal coffe cream (ac)\\royalcoffecream\\royalcoffecream.view\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B9B82E-F3D0-43E4-8029-046267DCAF08}|RoyalCoffeCream.View\\RoyalCoffeCream.View.csproj|solutionrelative:royalcoffecream.view\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryDAL.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\ROYAL COFFE CREAM (AC)\\RoyalCoffeCream\\RoyalCoffeCream.DataAccess\\CategoryDAL.cs",
+              "RelativeDocumentMoniker": "RoyalCoffeCream.DataAccess\\CategoryDAL.cs",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\ROYAL COFFE CREAM (AC)\\RoyalCoffeCream\\RoyalCoffeCream.DataAccess\\CategoryDAL.cs",
+              "RelativeToolTip": "RoyalCoffeCream.DataAccess\\CategoryDAL.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T23:09:49.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormNewDrink.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\ROYAL COFFE CREAM (AC)\\RoyalCoffeCream\\RoyalCoffeCream.View\\FormNewDrink.cs",
+              "RelativeDocumentMoniker": "RoyalCoffeCream.View\\FormNewDrink.cs",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\ROYAL COFFE CREAM (AC)\\RoyalCoffeCream\\RoyalCoffeCream.View\\FormNewDrink.cs",
+              "RelativeToolTip": "RoyalCoffeCream.View\\FormNewDrink.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwBwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T22:05:48.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormNewDrink.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\ROYAL COFFE CREAM (AC)\\RoyalCoffeCream\\RoyalCoffeCream.View\\FormNewDrink.cs",
+              "RelativeDocumentMoniker": "RoyalCoffeCream.View\\FormNewDrink.cs",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\ROYAL COFFE CREAM (AC)\\RoyalCoffeCream\\RoyalCoffeCream.View\\FormNewDrink.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RoyalCoffeCream.View\\FormNewDrink.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T20:54:01.177Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormDrink.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\ROYAL COFFE CREAM (AC)\\RoyalCoffeCream\\RoyalCoffeCream.View\\FormDrink.cs",
+              "RelativeDocumentMoniker": "RoyalCoffeCream.View\\FormDrink.cs",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\ROYAL COFFE CREAM (AC)\\RoyalCoffeCream\\RoyalCoffeCream.View\\FormDrink.cs [Dise\u00F1o]",
+              "RelativeToolTip": "RoyalCoffeCream.View\\FormDrink.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T20:53:39.102Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormNewCategory.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\ROYAL COFFE CREAM (AC)\\RoyalCoffeCream\\RoyalCoffeCream.View\\FormNewCategory.cs",
+              "RelativeDocumentMoniker": "RoyalCoffeCream.View\\FormNewCategory.cs",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\ROYAL COFFE CREAM (AC)\\RoyalCoffeCream\\RoyalCoffeCream.View\\FormNewCategory.cs",
+              "RelativeToolTip": "RoyalCoffeCream.View\\FormNewCategory.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwD0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T08:15:01.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\victus\\Downloads\\ROYAL COFFE CREAM (AC)\\RoyalCoffeCream\\RoyalCoffeCream.View\\Program.cs",
+              "RelativeDocumentMoniker": "RoyalCoffeCream.View\\Program.cs",
+              "ToolTip": "C:\\Users\\victus\\Downloads\\ROYAL COFFE CREAM (AC)\\RoyalCoffeCream\\RoyalCoffeCream.View\\Program.cs",
+              "RelativeToolTip": "RoyalCoffeCream.View\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T07:12:22.229Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

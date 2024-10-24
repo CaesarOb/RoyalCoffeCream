@@ -1,0 +1,6 @@
+C:\Users\victus\Downloads\ROYAL COFFE CREAM (AC)\RoyalCoffeCream\RoyalCoffeCream.Entity\bin\Debug\RoyalCoffeCream.Entity.dll
+C:\Users\victus\Downloads\ROYAL COFFE CREAM (AC)\RoyalCoffeCream\RoyalCoffeCream.Entity\bin\Debug\RoyalCoffeCream.Entity.pdb
+C:\Users\victus\Downloads\ROYAL COFFE CREAM (AC)\RoyalCoffeCream\RoyalCoffeCream.Entity\obj\Debug\RoyalCoffeCream.Entity.csproj.AssemblyReference.cache
+C:\Users\victus\Downloads\ROYAL COFFE CREAM (AC)\RoyalCoffeCream\RoyalCoffeCream.Entity\obj\Debug\RoyalCoffeCream.Entity.csproj.CoreCompileInputs.cache
+C:\Users\victus\Downloads\ROYAL COFFE CREAM (AC)\RoyalCoffeCream\RoyalCoffeCream.Entity\obj\Debug\RoyalCoffeCream.Entity.dll
+C:\Users\victus\Downloads\ROYAL COFFE CREAM (AC)\RoyalCoffeCream\RoyalCoffeCream.Entity\obj\Debug\RoyalCoffeCream.Entity.pdb
