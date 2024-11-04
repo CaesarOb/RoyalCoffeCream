@@ -25,7 +25,19 @@ namespace RoyalCoffeCream.View
 
         private void Ingredient_Load(object sender, EventArgs e)
         {
+            UpdateGrid();
+        }
+        private void UpdateGrid()
+        {
             dataGridView1.DataSource = IngredientBL.Instance.SelectAll();
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormNewIngredient formNuevo = new FormNewIngredient();
+
+            formNuevo.ShowDialog();
+
+            UpdateGrid();
         }
     }
 }

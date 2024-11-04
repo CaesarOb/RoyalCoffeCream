@@ -32,16 +32,29 @@ namespace RoyalCoffeCream.BusinessLogic
             return result;
         }
 
-        public BUser spBUserValidate(string password, string nick)
+        public BUser ValidateSession(string passcode, string nick)
         {
             BUser result = null;
             try
             {
-                result = BUserDAL.Instance.ValidateSession(password, nick);
+                result = BUserDAL.Instance.ValidateSession(passcode, nick);
             }
             catch (Exception ex)
             {
                 throw;
+            }
+            return result;
+        }
+        public bool Insert(BUser entity)
+        {
+            bool result = false;
+            try
+            {
+                result = BUserDAL.Instance.Insert(entity);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
             }
             return result;
         }

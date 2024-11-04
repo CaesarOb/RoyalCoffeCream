@@ -12,6 +12,6 @@ namespace RoyalCoffeCream.Entity
         public string Name { get; set; }
         public int SizeId { get; set; }
         public int StatusId { get; set; }
-        public DateTime? ExpirationDate { get; set; }
+        public String ExpirationDate { get; set; }
     }
 }

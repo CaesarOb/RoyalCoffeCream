@@ -1,4 +1,5 @@
 ﻿using RoyalCoffeCream.BusinessLogic;
+using RoyalCoffeCream.Entity;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -28,28 +29,65 @@ namespace RoyalCoffeCream.View
         {
             UpdateComboBoxTamaño();
             UpdateComboBoxCategoria();
-            UpdateComboBoxStado();
+            UpdateComboBoxEstado();
         }
         private void UpdateComboBoxTamaño()
         {
             comboBoxTamaño.DataSource = SizeBL.Instance.SelectAll();
             comboBoxTamaño.DisplayMember = "Name";
             comboBoxTamaño.ValueMember = "SizeId";
+            
+
 
         }
         private void UpdateComboBoxCategoria()
         {
-            comboBoxTamaño.DataSource = CategoryBL.Instance.SelectAll();
-            comboBoxTamaño.DisplayMember = "Name";
-            comboBoxTamaño.ValueMember = "CategoryId";
+            comboBoxCategoria.DataSource = CategoryBL.Instance.SelectAll();
+            comboBoxCategoria.DisplayMember = "Name";
+            comboBoxCategoria.ValueMember = "CategoryId";
 
         }
-        private void UpdateComboBoxStado()
+        private void UpdateComboBoxEstado()
         {
-            comboBoxTamaño.DataSource = StatusProductBL.Instance.SelectAll();
-            comboBoxTamaño.DisplayMember = "Name";
-            comboBoxTamaño.ValueMember = "StatusProductId";
+            comboBoxEstado.DataSource = StatusProductBL.Instance.SelectAll();
+            comboBoxEstado.DisplayMember = "Name";
+            comboBoxEstado.ValueMember = "StatusProductId";
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(textBoxNombre.Text))
+            {
+                errorProvider1.SetError(textBoxNombre, "Campo Requerido");
+                return;
+            }
+            errorProvider1.Clear();
+
+            if (!Decimal.TryParse(textBoxPrecio.Text.Trim(), out Decimal price))
+            {
+                errorProvider1.SetError(textBoxPrecio, "Ingrese un número válido para el precio.");
+                return;
+            }
+            errorProvider1.Clear();
+
+            Drink entity = new Drink()
+            {
+                Name = textBoxNombre.Text.Trim(),
+                Description = textBoxDescripcion.Text.Trim(),
+                Price = Decimal.Parse(textBoxPrecio.Text.Trim()),
+                SizeId = (int)comboBoxTamaño.SelectedValue,
+                CategoryId = (int)comboBoxCategoria.SelectedValue,
+                StatusProductId = (int)comboBoxEstado.SelectedValue,
+            };
+            if (DrinkBL.Instance.Insert(entity))
+            {
+                MessageBox.Show("Registro ingresado correctamente", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Error al insertar el registro", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

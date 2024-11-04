@@ -58,6 +58,7 @@
     <Compile Include="FoodDAL.cs" />
     <Compile Include="IngredientDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecordDAL.cs" />
     <Compile Include="SellDrinkDAL.cs" />
     <Compile Include="SellFoodDAL.cs" />
     <Compile Include="SizeDAL.cs" />

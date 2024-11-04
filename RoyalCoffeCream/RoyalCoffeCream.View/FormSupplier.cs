@@ -31,5 +31,14 @@ namespace RoyalCoffeCream.View
         {
             dataGridView1.DataSource = SupplierBL.Instance.SelectAll();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormNewSupplier formNuevo = new FormNewSupplier();
+
+            formNuevo.ShowDialog();
+
+            UpdateGrid();
+        }
     }
 }

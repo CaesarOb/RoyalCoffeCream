@@ -88,6 +88,12 @@
     <Compile Include="FormLogIn.Designer.cs">
       <DependentUpon>FormLogIn.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormNewBUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewBUser.Designer.cs">
+      <DependentUpon>FormNewBUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormNewCategory.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,72 @@
     </Compile>
     <Compile Include="FormNewDrink.Designer.cs">
       <DependentUpon>FormNewDrink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewEmployee.Designer.cs">
+      <DependentUpon>FormNewEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewFood.Designer.cs">
+      <DependentUpon>FormNewFood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewIngredient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewIngredient.Designer.cs">
+      <DependentUpon>FormNewIngredient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewSize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewSize.Designer.cs">
+      <DependentUpon>FormNewSize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewStockDrink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewStockDrink.Designer.cs">
+      <DependentUpon>FormNewStockDrink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewSupplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewSupplier.Designer.cs">
+      <DependentUpon>FormNewSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewUtensil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewUtensil.Designer.cs">
+      <DependentUpon>FormNewUtensil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRecord.Designer.cs">
+      <DependentUpon>FormRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStockDrink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStockDrink.Designer.cs">
+      <DependentUpon>FormStockDrink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewStockFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewStockFood.Designer.cs">
+      <DependentUpon>FormNewStockFood.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStockFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStockFood.Designer.cs">
+      <DependentUpon>FormStockFood.cs</DependentUpon>
     </Compile>
     <Compile Include="Helpers\Utilities.cs" />
     <Compile Include="Program.cs" />
@@ -166,11 +238,47 @@
     <EmbeddedResource Include="FormLogIn.resx">
       <DependentUpon>FormLogIn.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormNewBUser.resx">
+      <DependentUpon>FormNewBUser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormNewCategory.resx">
       <DependentUpon>FormNewCategory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormNewDrink.resx">
       <DependentUpon>FormNewDrink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewEmployee.resx">
+      <DependentUpon>FormNewEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewFood.resx">
+      <DependentUpon>FormNewFood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewIngredient.resx">
+      <DependentUpon>FormNewIngredient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewSize.resx">
+      <DependentUpon>FormNewSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewStockDrink.resx">
+      <DependentUpon>FormNewStockDrink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewSupplier.resx">
+      <DependentUpon>FormNewSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewUtensil.resx">
+      <DependentUpon>FormNewUtensil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRecord.resx">
+      <DependentUpon>FormRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStockDrink.resx">
+      <DependentUpon>FormStockDrink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewStockFood.resx">
+      <DependentUpon>FormNewStockFood.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStockFood.resx">
+      <DependentUpon>FormStockFood.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -180,6 +288,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="FormSize.resx">
       <DependentUpon>FormSize.cs</DependentUpon>
@@ -224,6 +333,9 @@
       <Project>{A81BC288-E368-44E6-9B7D-CAD2324D53DB}</Project>
       <Name>RoyalCoffeCream.Entity</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44562.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

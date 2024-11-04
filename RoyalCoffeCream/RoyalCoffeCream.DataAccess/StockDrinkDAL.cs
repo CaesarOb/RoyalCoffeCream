@@ -54,7 +54,7 @@ namespace RoyalCoffeCream.DataAccess
             bool result = false;
             using (SqlConnection conn = new SqlConnection(_cadena))
             {
-                using (SqlCommand cmd = new SqlCommand("spStockDrinkInsert", conn))
+                using (SqlCommand cmd = new SqlCommand("spStockKDrinkInsert", conn))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@DrinkId", entity.DrinkId);

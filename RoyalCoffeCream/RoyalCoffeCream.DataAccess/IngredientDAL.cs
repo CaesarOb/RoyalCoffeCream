@@ -41,7 +41,7 @@ namespace RoyalCoffeCream.DataAccess
                                 entity.Name = dr.GetString(1);
                                 entity.SizeId = dr.GetInt32(2);
                                 entity.StatusId = dr.GetInt32(3);
-                                entity.ExpirationDate = dr.GetDateTime(4);
+                                entity.ExpirationDate = dr.GetString(4);
 
                                 result.Add(entity);
                             }

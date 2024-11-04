@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.comboBoxEstado = new System.Windows.Forms.ComboBox();
@@ -42,6 +43,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.comboBoxCategoria = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -58,25 +61,26 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Silver;
-            this.button2.Location = new System.Drawing.Point(632, 134);
+            this.button2.Location = new System.Drawing.Point(637, 118);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(126, 68);
             this.button2.TabIndex = 21;
             this.button2.Text = "CREAR";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // comboBoxEstado
             // 
             this.comboBoxEstado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxEstado.FormattingEnabled = true;
-            this.comboBoxEstado.Location = new System.Drawing.Point(223, 327);
+            this.comboBoxEstado.Location = new System.Drawing.Point(242, 329);
             this.comboBoxEstado.Name = "comboBoxEstado";
             this.comboBoxEstado.Size = new System.Drawing.Size(292, 24);
             this.comboBoxEstado.TabIndex = 20;
             // 
             // textBoxNombre
             // 
-            this.textBoxNombre.Location = new System.Drawing.Point(223, 71);
+            this.textBoxNombre.Location = new System.Drawing.Point(242, 73);
             this.textBoxNombre.Name = "textBoxNombre";
             this.textBoxNombre.Size = new System.Drawing.Size(292, 22);
             this.textBoxNombre.TabIndex = 19;
@@ -84,7 +88,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(98, 335);
+            this.label2.Location = new System.Drawing.Point(146, 337);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(50, 16);
             this.label2.TabIndex = 18;
@@ -93,7 +97,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(98, 74);
+            this.label1.Location = new System.Drawing.Point(140, 76);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 16);
             this.label1.TabIndex = 17;
@@ -101,7 +105,7 @@
             // 
             // textBoxDescripcion
             // 
-            this.textBoxDescripcion.Location = new System.Drawing.Point(223, 112);
+            this.textBoxDescripcion.Location = new System.Drawing.Point(242, 114);
             this.textBoxDescripcion.Multiline = true;
             this.textBoxDescripcion.Name = "textBoxDescripcion";
             this.textBoxDescripcion.Size = new System.Drawing.Size(292, 72);
@@ -110,7 +114,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(98, 115);
+            this.label3.Location = new System.Drawing.Point(117, 117);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(79, 16);
             this.label3.TabIndex = 22;
@@ -118,7 +122,7 @@
             // 
             // textBoxPrecio
             // 
-            this.textBoxPrecio.Location = new System.Drawing.Point(223, 205);
+            this.textBoxPrecio.Location = new System.Drawing.Point(242, 207);
             this.textBoxPrecio.Name = "textBoxPrecio";
             this.textBoxPrecio.Size = new System.Drawing.Size(292, 22);
             this.textBoxPrecio.TabIndex = 25;
@@ -126,7 +130,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(98, 208);
+            this.label4.Location = new System.Drawing.Point(150, 210);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(46, 16);
             this.label4.TabIndex = 24;
@@ -136,7 +140,7 @@
             // 
             this.comboBoxTamaño.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxTamaño.FormattingEnabled = true;
-            this.comboBoxTamaño.Location = new System.Drawing.Point(223, 248);
+            this.comboBoxTamaño.Location = new System.Drawing.Point(242, 250);
             this.comboBoxTamaño.Name = "comboBoxTamaño";
             this.comboBoxTamaño.Size = new System.Drawing.Size(292, 24);
             this.comboBoxTamaño.TabIndex = 27;
@@ -144,7 +148,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(98, 256);
+            this.label5.Location = new System.Drawing.Point(138, 258);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(58, 16);
             this.label5.TabIndex = 26;
@@ -154,7 +158,7 @@
             // 
             this.comboBoxCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxCategoria.FormattingEnabled = true;
-            this.comboBoxCategoria.Location = new System.Drawing.Point(223, 287);
+            this.comboBoxCategoria.Location = new System.Drawing.Point(242, 289);
             this.comboBoxCategoria.Name = "comboBoxCategoria";
             this.comboBoxCategoria.Size = new System.Drawing.Size(292, 24);
             this.comboBoxCategoria.TabIndex = 29;
@@ -162,11 +166,15 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(98, 295);
+            this.label6.Location = new System.Drawing.Point(130, 297);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(66, 16);
             this.label6.TabIndex = 28;
             this.label6.Text = "Categoria";
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // FormNewDrink
             // 
@@ -193,6 +201,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormNewDrink";
             this.Load += new System.EventHandler(this.FormNewDrink_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -214,5 +223,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox comboBoxCategoria;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
