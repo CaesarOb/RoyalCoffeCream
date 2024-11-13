@@ -1,11 +1,7 @@
-﻿using System;
+﻿using RoyalCoffeCream.Entity;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data.SqlClient;
 using System.Data;
-using RoyalCoffeCream.Entity;
+using System.Data.SqlClient;
 
 namespace RoyalCoffeCream.DataAccess
 {
@@ -41,6 +37,7 @@ namespace RoyalCoffeCream.DataAccess
                                 entity.SupplyDate = dr.GetDateTime(1);
                                 entity.Price = dr.GetDecimal(2);
                                 entity.SupplierId = dr.GetInt32(3);
+                                entity.UserId = dr.GetInt32(4);
 
                                 result.Add(entity);
                             }
@@ -50,9 +47,9 @@ namespace RoyalCoffeCream.DataAccess
             }
             return result;
         }
-        public bool Insert(BuyIngredient entity)
+        public int Insert(BuyIngredient entity)
         {
-            bool result = false;
+            int result = 0;
             using (SqlConnection conn = new SqlConnection(_cadena))
             {
                 using (SqlCommand cmd = new SqlCommand("spBuyIngredientInsert", conn))
@@ -61,8 +58,9 @@ namespace RoyalCoffeCream.DataAccess
                     cmd.Parameters.AddWithValue("@SupplyDate", entity.SupplyDate);
                     cmd.Parameters.AddWithValue("@Price", entity.Price);
                     cmd.Parameters.AddWithValue("@SupplierId", entity.SupplierId);
+                    cmd.Parameters.AddWithValue("@UserId", entity.UserId);
                     conn.Open();
-                    result = cmd.ExecuteNonQuery() > 0;
+                    result = (int)cmd.ExecuteScalar();
                 }
             }
             return result;
@@ -80,6 +78,7 @@ namespace RoyalCoffeCream.DataAccess
                     cmd.Parameters.AddWithValue("@SupplyDate", entity.SupplyDate);
                     cmd.Parameters.AddWithValue("@Price", entity.Price);
                     cmd.Parameters.AddWithValue("@SupplierId", entity.SupplierId);
+                    cmd.Parameters.AddWithValue("UserId", entity.UserId);
                     conn.Open();
                     result = cmd.ExecuteNonQuery() > 0;
                 }

@@ -31,5 +31,18 @@ namespace RoyalCoffeCream.BusinessLogic
             }
             return result;
         }
+        public int Insert(BuyUtensil entity)
+        {
+            int result = 0;
+            try
+            {
+                result = BuyUtensilDAL.Instance.Insert(entity);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            return result;
+        }
     }
 }

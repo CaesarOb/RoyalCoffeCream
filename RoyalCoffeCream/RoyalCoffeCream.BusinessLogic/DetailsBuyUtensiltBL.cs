@@ -31,5 +31,18 @@ namespace RoyalCoffeCream.BusinessLogic
             }
             return result;
         }
+        public bool Insert(DetailsBuyUtensilt entity)
+        {
+            bool result = false;
+            try
+            {
+                result = DetailsBuyUtensiltDAL.Instance.Insert(entity);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            return result;
+        }
     }
 }

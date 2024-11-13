@@ -52,9 +52,9 @@ namespace RoyalCoffeCream.DataAccess
             }
             return result;
         }
-        public bool Insert(DetailsSellFood entity)
+        public int Insert(DetailsSellFood entity)
         {
-            bool result = false;
+            int result = 0;
             using (SqlConnection conn = new SqlConnection(_cadena))
             {
                 using (SqlCommand cmd = new SqlCommand("spDetailsSellFoodInsert", conn))
@@ -66,7 +66,7 @@ namespace RoyalCoffeCream.DataAccess
                     cmd.Parameters.AddWithValue("@Total", entity.Total);
                     cmd.Parameters.AddWithValue("@StatusFactureId", entity.StatusFactureId);
                     conn.Open();
-                    result = cmd.ExecuteNonQuery() > 0;
+                    result = result = (int)cmd.ExecuteScalar();
                 }
             }
             return result;

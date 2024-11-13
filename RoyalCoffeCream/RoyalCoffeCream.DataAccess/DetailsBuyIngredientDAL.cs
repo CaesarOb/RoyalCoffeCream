@@ -60,6 +60,7 @@ namespace RoyalCoffeCream.DataAccess
             {
                 using (SqlCommand cmd = new SqlCommand("spDetailsBuyIngredientInsert", conn))
                 {
+                    
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@BuyIngredientId", entity.BuyIngredientId);
                     cmd.Parameters.AddWithValue("@IngredientId", entity.IngredientId);

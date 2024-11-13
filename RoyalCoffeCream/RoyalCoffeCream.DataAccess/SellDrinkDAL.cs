@@ -40,6 +40,7 @@ namespace RoyalCoffeCream.DataAccess
                                 entity.SellDrinkId = dr.GetInt32(0);
                                 entity.SellDate = dr.GetDateTime(1);
                                 entity.Price = dr.GetDecimal(2);
+                                entity.UserId = dr.GetInt32(3);
 
                                 result.Add(entity);
                             }
@@ -49,18 +50,21 @@ namespace RoyalCoffeCream.DataAccess
             }
             return result;
         }
-        public bool Insert(SellDrink entity)
+        public int Insert(SellDrink entity)
         {
-            bool result = false;
+            int result = 0;
             using (SqlConnection conn = new SqlConnection(_cadena))
             {
                 using (SqlCommand cmd = new SqlCommand("spSellDrinkInsert", conn))
                 {
+                    
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@SellDate", entity.SellDate);
                     cmd.Parameters.AddWithValue("@Price", entity.Price);
+                    cmd.Parameters.AddWithValue("@UserId", entity.UserId);
+                    cmd.CommandType = CommandType.StoredProcedure;
                     conn.Open();
-                    result = cmd.ExecuteNonQuery() > 0;
+                    result = (int)cmd.ExecuteScalar();
                 }
             }
             return result;
@@ -77,6 +81,7 @@ namespace RoyalCoffeCream.DataAccess
                     cmd.Parameters.AddWithValue("@SellDrinkId", entity.SellDrinkId);
                     cmd.Parameters.AddWithValue("@SellDate", entity.SellDate);
                     cmd.Parameters.AddWithValue("@Price", entity.Price);
+                    cmd.Parameters.AddWithValue("@UserId", entity.UserId);
                     conn.Open();
                     result = cmd.ExecuteNonQuery() > 0;
                 }

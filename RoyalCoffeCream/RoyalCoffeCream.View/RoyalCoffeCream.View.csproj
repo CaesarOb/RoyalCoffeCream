@@ -58,6 +58,12 @@
     <Compile Include="FormCategory.Designer.cs">
       <DependentUpon>FormCategory.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDetailSellFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDetailSellFood.Designer.cs">
+      <DependentUpon>FormDetailSellFood.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDrink.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,6 +160,12 @@
     <Compile Include="FormRecord.Designer.cs">
       <DependentUpon>FormRecord.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDetailSellDrink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDetailSellDrink.Designer.cs">
+      <DependentUpon>FormDetailSellDrink.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormStockDrink.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -223,6 +235,9 @@
     <EmbeddedResource Include="FormCategory.resx">
       <DependentUpon>FormCategory.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDetailSellFood.resx">
+      <DependentUpon>FormDetailSellFood.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDrink.resx">
       <DependentUpon>FormDrink.cs</DependentUpon>
     </EmbeddedResource>
@@ -270,6 +285,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormRecord.resx">
       <DependentUpon>FormRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDetailSellDrink.resx">
+      <DependentUpon>FormDetailSellDrink.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormStockDrink.resx">
       <DependentUpon>FormStockDrink.cs</DependentUpon>

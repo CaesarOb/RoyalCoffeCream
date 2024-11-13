@@ -2,9 +2,6 @@
 using RoyalCoffeCream.Entity;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RoyalCoffeCream.BusinessLogic
 {
@@ -24,6 +21,19 @@ namespace RoyalCoffeCream.BusinessLogic
             try
             {
                 result = BuyIngredientDAL.Instance.SelectAll();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            return result;
+        }
+        public int Insert(BuyIngredient entity)
+        {
+            int result = 0;
+            try
+            {
+                result = BuyIngredientDAL.Instance.Insert(entity);
             }
             catch (Exception ex)
             {

@@ -74,3 +74,5 @@ C:\Users\victus\Downloads\ROYAL COFFE CREAM\RoyalCoffeCream\RoyalCoffeCream.View
 C:\Users\victus\Downloads\ROYAL COFFE CREAM\RoyalCoffeCream\RoyalCoffeCream.View\obj\Debug\RoyalCoffeCream.View.FormNewStockFood.resources
 C:\Users\victus\Downloads\ROYAL COFFE CREAM\RoyalCoffeCream\RoyalCoffeCream.View\obj\Debug\RoyalCoffeCream.View.FormStockFood.resources
 C:\Users\victus\Downloads\ROYAL COFFE CREAM\RoyalCoffeCream\RoyalCoffeCream.View\obj\Debug\RoyalCoffeCream.View.FormNewBUser.resources
+C:\Users\victus\Downloads\ROYAL COFFE CREAM\RoyalCoffeCream\RoyalCoffeCream.View\obj\Debug\RoyalCoffeCream.View.FormDetailSellDrink.resources
+C:\Users\victus\Downloads\ROYAL COFFE CREAM\RoyalCoffeCream\RoyalCoffeCream.View\obj\Debug\RoyalCoffeCream.View.FormDetailSellFood.resources

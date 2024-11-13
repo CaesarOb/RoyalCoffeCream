@@ -11,5 +11,6 @@ namespace RoyalCoffeCream.Entity
         public int SellDrinkId { get; set; }
         public DateTime SellDate { get; set; }
         public Decimal Price { get; set; }
+        public int UserId { get; set; }
     }
 }
