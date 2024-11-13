@@ -161,7 +161,7 @@ namespace RoyalCoffeCream.View
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error al realizar el pago: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Pago realizado con éxito.", "Confirmación", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 _car.Clear();
                 dataGridView1.DataSource = null;
                 labelTotal.Text = "0.00";

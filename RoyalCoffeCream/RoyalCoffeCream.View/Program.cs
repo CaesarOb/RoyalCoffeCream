@@ -16,7 +16,7 @@ namespace RoyalCoffeCream.View
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormStockDrink());
+            Application.Run(new FormUserType());
         }
     }
 }
